@@ -1,0 +1,90 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.44em;
+  background: linear-gradient(90deg, #1c233f 0%, #20a1be 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
+  height: 250px;
+  background-color: #5f6d78;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.product img {
+  height: 200px;
+  width: 200px;
+}
+
+.product span {
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.page__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+  /* background: linear-gradient(75deg, #181810ed 0%, #050d3c 100%); */
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+  /* background: linear-gradient(90deg, #000000eb 0%, #1d2a1d 59%); */
+  background-color: #5f6d78;
+}
+
+.page:hover {
+  cursor: pointer;
+}
+
+.page__container-arrow {
+  color: #5f6d78;
+  height: 2.3rem !important;
+  width: 2.3rem !important;
+  cursor: pointer;
+}
+
+.pageNo {
+  margin: 5px;
+}
+
+.active {
+  background-color: white;
+  color: #5f6d78;
+}
